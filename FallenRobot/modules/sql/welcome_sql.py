@@ -7,8 +7,8 @@ from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 from FallenRobot.modules.helper_funcs.msg_types import Types
 from FallenRobot.modules.sql import BASE, SESSION
 
-DEFAULT_WELCOME = "Hey {first}, how are you?"
-DEFAULT_GOODBYE = "Nice knowing ya!"
+DEFAULT_WELCOME = "Hey {first}, ᴀʙ ᴀᴀʜɪ ɢᴇʏᴀ ʜᴀɪ ᴛᴏʜ ᴊᴀɴᴀ ᴍᴀᴛ"
+DEFAULT_GOODBYE = "ᴄʜᴀʟᴀ ɢᴇʏᴀ ʙᴏsᴅᴋ"
 
 DEFAULT_WELCOME_MESSAGES = [
     "{first} is here!",
@@ -161,6 +161,9 @@ DEFAULT_WELCOME_MESSAGES = [
     "I'm back - {first}.",
     "Bond. {first} Bond.",
     "Come with me if you want to live",
+    "ᴏʀ ʙᴀᴛᴀ ᴋᴇsᴀ ʜᴇ ʀᴇ"
+    "ᴀᴀɢᴇʏᴀ ᴛᴜ"
+    "ᴀᴀɢᴇʏᴀ ᴛᴏʜ ᴀʙ ᴊᴀɴᴀ ᴍᴀᴛ"
 ]
 DEFAULT_GOODBYE_MESSAGES = [
     "{first} will be missed.",

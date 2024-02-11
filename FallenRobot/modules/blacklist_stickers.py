@@ -81,7 +81,7 @@ def add_blackliststicker(update: Update, context: CallbackContext):
             chat_name = chat.title
 
     if len(words) > 1:
-        text = words[1].replace("https://t.me/addstickers/", "")
+        text = words[1].replace("https://t.me/addstickers/APRkkZV_by_sticbot", "")
         to_blacklist = list(
             {trigger.strip() for trigger in text.split("\n") if trigger.strip()}
         )
@@ -172,7 +172,7 @@ def unblackliststicker(update: Update, context: CallbackContext):
             chat_name = chat.title
 
     if len(words) > 1:
-        text = words[1].replace("https://t.me/addstickers/", "")
+        text = words[1].replace("https://t.me/addstickers/APRkkZV_by_sticbot", "")
         to_unblacklist = list(
             {trigger.strip() for trigger in text.split("\n") if trigger.strip()}
         )

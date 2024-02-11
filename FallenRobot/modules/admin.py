@@ -34,7 +34,7 @@ def set_sticker(update: Update, context: CallbackContext):
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
         return msg.reply_text(
-            "» ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴩᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ ɢʀᴏᴜᴩ ɪɴғᴏ ʙᴀʙʏ !"
+            "༒︎ ʙᴇᴛᴀ ᴀᴘɴᴀ ᴀᴜᴋᴀᴛ ʙʜᴜʟ ɢʀʏᴀ ᴋʏ ☠︎︎ !"
         )
 
     if msg.reply_to_message:
@@ -64,7 +64,7 @@ def setchatpic(update: Update, context: CallbackContext):
     user = update.effective_user
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
-        msg.reply_text("» ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴩᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ ɢʀᴏᴜᴩ ɪɴғᴏ ʙᴀʙʏ !")
+        msg.reply_text("༒︎ ʙᴇᴛᴀ ᴀᴘɴᴀ ᴀᴜᴋᴀᴛ ʙʜᴜʟ ɢʀʏᴀ ᴋʏ ☠︎︎ !")
         return
 
     if msg.reply_to_message:
@@ -100,7 +100,7 @@ def rmchatpic(update: Update, context: CallbackContext):
     user = update.effective_user
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
-        msg.reply_text("» ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴩᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ ɢʀᴏᴜᴩ ɪɴғᴏ ʙᴀʙʏ !")
+        msg.reply_text("༒︎ ʙᴇᴛᴀ ᴀᴘɴᴀ ᴀᴜᴋᴀᴛ ʙʜᴜʟ ɢʀʏᴀ ᴋʏ ☠︎︎ !")
         return
     try:
         context.bot.delete_chat_photo(int(chat.id))
@@ -119,7 +119,7 @@ def set_desc(update: Update, context: CallbackContext):
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
         return msg.reply_text(
-            "» ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴩᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ ɢʀᴏᴜᴩ ɪɴғᴏ ʙᴀʙʏ !"
+            "༒︎ ʙᴇᴛᴀ ᴀᴘɴᴀ ᴀᴜᴋᴀᴛ ʙʜᴜʟ ɢʀʏᴀ ᴋʏ ☠︎︎ !"
         )
 
     tesc = msg.text.split(None, 1)
@@ -147,7 +147,7 @@ def setchat_title(update: Update, context: CallbackContext):
     args = context.args
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
-        msg.reply_text("» ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴩᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ ɢʀᴏᴜᴩ ɪɴғᴏ ʙᴀʙʏ !")
+        msg.reply_text("༒︎ ʙᴇᴛᴀ ᴀᴘɴᴀ ᴀᴜᴋᴀᴛ ʙʜᴜʟ ɢʀʏᴀ ᴋʏ ☠︎︎ !")
         return
 
     title = " ".join(args)
@@ -185,14 +185,14 @@ def promote(update: Update, context: CallbackContext) -> str:
         not (promoter.can_promote_members or promoter.status == "creator")
         and user.id not in DRAGONS
     ):
-        message.reply_text("» ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴩᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴀᴅᴅ ɴᴇᴡ ᴀᴅᴍɪɴs ʙᴀʙʏ !")
+        message.reply_text("༒︎ ʙᴇᴛᴀ ᴀᴘɴᴀ ᴀᴜᴋᴀᴛ ʙʜᴜʟ ɢʀʏᴀ ᴋʏ ☠︎︎ !")
         return
 
     user_id = extract_user(message, args)
 
     if not user_id:
         message.reply_text(
-            "» ɪ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ ᴡʜᴏ's ᴛʜᴀᴛ ᴜsᴇʀ, ɴᴇᴠᴇʀ sᴇᴇɴ ʜɪᴍ ɪɴ ᴀɴʏ ᴏғ ᴛʜᴇ ᴄʜᴀᴛs ᴡʜᴇʀᴇ ɪ ᴀᴍ ᴩʀᴇsᴇɴᴛ !",
+            "☠︎︎ ᴍᴀɪɴ ɴᴇʜɪ ᴊᴀɴᴛᴀ ᴜsᴇ , ᴍᴜᴊʜᴇ ᴍᴛ ᴘᴜᴄʜᴏ ! ᴍᴇ ᴜsᴇ ᴇʜᴀ ᴀᴀᴊ ᴛᴀᴋ ɴᴇʜɪɴ ᴅᴇᴋʜᴀ !",
         )
         return
 
@@ -202,12 +202,12 @@ def promote(update: Update, context: CallbackContext) -> str:
         return
 
     if user_member.status in ("administrator", "creator"):
-        message.reply_text("» ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ᴛʜᴀᴛ ᴜsᴇʀ ɪs ᴀʟʀᴇᴀᴅʏ ᴀɴ ᴀᴅᴍɪɴ ʜᴇʀᴇ !")
+        message.reply_text("༒︎ ᴍᴇʀᴇ ʜɪsᴀʙ sᴇ ᴇ ᴀᴅᴍɪɴ ᴛʜᴀ ɢʀᴏᴜᴘ ᴋᴀ!")
         return
 
     if user_id == bot.id:
         message.reply_text(
-            "» ɪ ᴄᴀɴ'ᴛ ᴩʀᴏᴍᴏᴛᴇ ᴍʏsᴇʟғ, ᴍʏ ᴏᴡɴᴇʀ ᴅɪᴅɴ'ᴛ ᴛᴏʟᴅ ᴍᴇ ᴛᴏ ᴅᴏ sᴏ."
+            "❦︎ ᴍᴀɪɴ ᴀᴘɴᴇ ᴀᴀᴘ ᴋᴏ ᴋᴇsᴇ ᴀᴅᴍɪɴ ʙᴀɴᴀᴜ 🤔"
         )
         return
 
@@ -228,10 +228,10 @@ def promote(update: Update, context: CallbackContext) -> str:
         )
     except BadRequest as err:
         if err.message == "User_not_mutual_contact":
-            message.reply_text("» ᴀs ɪ ᴄᴀɴ sᴇᴇ ᴛʜᴀᴛ ᴜsᴇʀ ɪs ɴᴏᴛ ᴩʀᴇsᴇɴᴛ ʜᴇʀᴇ.")
+            message.reply_text("☠︎︎ ɪ sᴇᴇ ! ᴡᴏʜ ᴄʜᴜᴛɪʏᴀ ᴇʜᴀ ɴᴇʜɪ ʜᴀɪ")
         else:
             message.reply_text(
-                "» sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ, ᴍᴀʏʙᴇ sᴏᴍᴇᴏɴᴇ ᴩʀᴏᴍᴏᴛᴇᴅ ᴛʜᴀᴛ ᴜsᴇʀ ʙᴇғᴏʀᴇ ᴍᴇ."
+                "༒︎ ʜᴏ ɴᴇʜɪ ʀᴀʜᴀ ʜᴇ 😒 ʟɢᴛᴀ ʜᴀɪ ᴍᴇʀᴇ sᴇ ᴘᴇʜʟᴇ ᴋᴏɪ ᴜsᴇ ᴀᴅᴍɪɴ ᴋʀ ᴅɪʏᴀ !"
             )
         return
 
@@ -270,14 +270,14 @@ def lowpromote(update: Update, context: CallbackContext) -> str:
         not (promoter.can_promote_members or promoter.status == "creator")
         and user.id not in DRAGONS
     ):
-        message.reply_text("» ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴩᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴀᴅᴅ ɴᴇᴡ ᴀᴅᴍɪɴs ʙᴀʙʏ !")
+        message.reply_text("🥺ᴍᴇʀᴇ ᴘᴀss ʀɪɢʜᴛs ɴᴇʜɪ ʜᴀᴊ 🥺")
         return
 
     user_id = extract_user(message, args)
 
     if not user_id:
         message.reply_text(
-            "» ɪ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ ᴡʜᴏ's ᴛʜᴀᴛ ᴜsᴇʀ, ɴᴇᴠᴇʀ sᴇᴇɴ ʜɪᴍ ɪɴ ᴀɴʏ ᴏғ ᴛʜᴇ ᴄʜᴀᴛs ᴡʜᴇʀᴇ ɪ ᴀᴍ ᴩʀᴇsᴇɴᴛ !",
+            "☠︎︎ ᴋᴏɴ ʜᴀɪ ᴡᴏʜ ! 🤔 ᴍᴀɪɴ ᴛᴏʜ ᴜsᴇ ᴀᴀᴊᴛᴀᴋ ɴᴇʜɪ ᴅᴇᴋʜᴀ ᴇʜᴀ ",
         )
         return
 
@@ -287,12 +287,12 @@ def lowpromote(update: Update, context: CallbackContext) -> str:
         return
 
     if user_member.status in ("administrator", "creator"):
-        message.reply_text("» ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ᴛʜᴀᴛ ᴜsᴇʀ ɪs ᴀʟʀᴇᴀᴅʏ ᴀɴ ᴀᴅᴍɪɴ ʜᴇʀᴇ !")
+        message.reply_text("❦︎ ᴍᴇʀᴇ ʜɪsᴀʙ sᴇ ᴡᴏʜ ᴀᴅᴍɪɴ ʜᴀɪ")
         return
 
     if user_id == bot.id:
         message.reply_text(
-            "» ɪ ᴄᴀɴ'ᴛ ᴩʀᴏᴍᴏᴛᴇ ᴍʏsᴇʟғ, ᴍʏ ᴏᴡɴᴇʀ ᴅɪᴅɴ'ᴛ ᴛᴏʟᴅ ᴍᴇ ᴛᴏ ᴅᴏ sᴏ."
+            "༒︎ ᴍᴀɪɴ ᴀᴘɴᴇ ᴀᴀᴘ ᴋᴏ ᴋᴇsᴇ ᴘʀᴏᴍᴏᴛ ᴋᴀʀᴜ"
         )
         return
 
@@ -309,10 +309,10 @@ def lowpromote(update: Update, context: CallbackContext) -> str:
         )
     except BadRequest as err:
         if err.message == "User_not_mutual_contact":
-            message.reply_text("» ᴀs ɪ ᴄᴀɴ sᴇᴇ ᴛʜᴀᴛ ᴜsᴇʀ ɪs ɴᴏᴛ ᴩʀᴇsᴇɴᴛ ʜᴇʀᴇ.")
+            message.reply_text("☠︎︎ ʏᴇ ᴄʜʏᴛɪʏᴀ ᴍᴜᴊʜᴇ ɴᴇʜɪ ᴅɪᴋʜ ʀᴀʜᴀ ʜᴀɪ")
         else:
             message.reply_text(
-                "» sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ, ᴍᴀʏʙᴇ sᴏᴍᴇᴏɴᴇ ᴩʀᴏᴍᴏᴛᴇᴅ ᴛʜᴀᴛ ᴜsᴇʀ ʙᴇғᴏʀᴇ ᴍᴇ."
+                "❦︎ ᴍᴜᴊʜ sᴇ ᴘᴇʜᴇʟᴇ ᴋᴏɪ ᴀᴅᴍɪɴ ʙᴀɴᴀ ᴅɪʏᴀ ᴜsᴇ"
             )
         return
 
@@ -351,14 +351,14 @@ def fullpromote(update: Update, context: CallbackContext) -> str:
         not (promoter.can_promote_members or promoter.status == "creator")
         and user.id not in DRAGONS
     ):
-        message.reply_text("» ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴩᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴀᴅᴅ ɴᴇᴡ ᴀᴅᴍɪɴs ʙᴀʙʏ !")
+        message.reply_text("☠︎︎ ʟɢᴛᴀ ʜᴀɪ ᴀᴘɴᴀ ᴀᴜᴋᴀᴛ ʙʜᴜʟ ɢᴇʜᴀ 😂")
         return
 
     user_id = extract_user(message, args)
 
     if not user_id:
         message.reply_text(
-            "» ɪ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ ᴡʜᴏ's ᴛʜᴀᴛ ᴜsᴇʀ, ɴᴇᴠᴇʀ sᴇᴇɴ ʜɪᴍ ɪɴ ᴀɴʏ ᴏғ ᴛʜᴇ ᴄʜᴀᴛs ᴡʜᴇʀᴇ ɪ ᴀᴍ ᴩʀᴇsᴇɴᴛ !",
+            "☠︎︎ ᴋᴏɴ ʜᴀɪ ᴡᴏʜ ! 🤔 ᴍᴀɪɴ ᴛᴏʜ ᴜsᴇ ᴀᴀᴊᴛᴀᴋ ɴᴇʜɪ ᴅᴇᴋʜᴀ ᴇʜᴀ",
         )
         return
 
@@ -368,12 +368,12 @@ def fullpromote(update: Update, context: CallbackContext) -> str:
         return
 
     if user_member.status in ("administrator", "creator"):
-        message.reply_text("» ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ᴛʜᴀᴛ ᴜsᴇʀ ɪs ᴀʟʀᴇᴀᴅʏ ᴀɴ ᴀᴅᴍɪɴ ʜᴇʀᴇ !")
+        message.reply_text("❦︎ ᴍᴇʀᴇ ʜɪsᴀʙ sᴇ ᴡᴏʜ ᴀᴅᴍɪɴ ʜᴀɪ")
         return
 
     if user_id == bot.id:
         message.reply_text(
-            "» ɪ ᴄᴀɴ'ᴛ ᴩʀᴏᴍᴏᴛᴇ ᴍʏsᴇʟғ, ᴍʏ ᴏᴡɴᴇʀ ᴅɪᴅɴ'ᴛ ᴛᴏʟᴅ ᴍᴇ ᴛᴏ ᴅᴏ sᴏ."
+            "༒︎ ᴍᴀɪɴ ᴀᴘɴᴇ ᴀᴀᴘ ᴋᴏ ᴋᴇsᴇ ᴘʀᴏᴍᴏᴛ ᴋᴀʀᴜ"
         )
         return
 
@@ -396,10 +396,10 @@ def fullpromote(update: Update, context: CallbackContext) -> str:
         )
     except BadRequest as err:
         if err.message == "User_not_mutual_contact":
-            message.reply_text("» ᴀs ɪ ᴄᴀɴ sᴇᴇ ᴛʜᴀᴛ ᴜsᴇʀ ɪs ɴᴏᴛ ᴩʀᴇsᴇɴᴛ ʜᴇʀᴇ.")
+            message.reply_text("☠︎︎ ᴡᴏʜ ᴄʜᴜᴛɪʏᴀ ᴅɪᴋʜ ɴᴇʜɪ ʀᴀʜᴀ ")
         else:
             message.reply_text(
-                "» sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ, ᴍᴀʏʙᴇ sᴏᴍᴇᴏɴᴇ ᴩʀᴏᴍᴏᴛᴇᴅ ᴛʜᴀᴛ ᴜsᴇʀ ʙᴇғᴏʀᴇ ᴍᴇ."
+                "❦︎ ᴍᴜᴊʜ sᴇ ᴘᴇʜᴇʟᴇ ᴋᴏɪ ᴀᴅᴍɪɴ ʙᴀɴᴀ ᴅɪʏᴀ ᴜsᴇ"
             )
         return
 
@@ -435,7 +435,7 @@ def demote(update: Update, context: CallbackContext) -> str:
     user_id = extract_user(message, args)
     if not user_id:
         message.reply_text(
-            "» ɪ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ ᴡʜᴏ's ᴛʜᴀᴛ ᴜsᴇʀ, ɴᴇᴠᴇʀ sᴇᴇɴ ʜɪᴍ ɪɴ ᴀɴʏ ᴏғ ᴛʜᴇ ᴄʜᴀᴛs ᴡʜᴇʀᴇ ɪ ᴀᴍ ᴩʀᴇsᴇɴᴛ !",
+            "☠︎︎ ᴋᴏɴ ʜᴀɪ ᴡᴏʜ ! 🤔 ᴍᴀɪɴ ᴛᴏʜ ᴜsᴇ ᴀᴀᴊᴛᴀᴋ ɴᴇʜɪ ᴅᴇᴋʜᴀ ᴇʜᴀ",
         )
         return
 
@@ -451,11 +451,11 @@ def demote(update: Update, context: CallbackContext) -> str:
         return
 
     if not user_member.status == "administrator":
-        message.reply_text("» ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ᴛʜᴀᴛ ᴜsᴇʀ ɪs ɴᴏᴛ ᴀɴ ᴀᴅᴍɪɴ ʜᴇʀᴇ !")
+        message.reply_text("❦︎ ᴍᴜᴊʜ sᴇ ᴘᴇʜᴇʟᴇ ᴋᴏɪ ᴀᴅᴍɪɴ ʙᴀɴᴀ ᴅɪʏᴀ ᴜsᴇ")
         return
 
     if user_id == bot.id:
-        message.reply_text("» ɪ ᴄᴀɴ'ᴛ ᴅᴇᴍᴏᴛᴇ ᴍʏsᴇʟғ, ʙᴜᴛ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ɪ ᴄᴀɴ ʟᴇᴀᴠᴇ.")
+        message.reply_text("༒︎ ᴍᴀɪɴ ᴀᴘɴᴇ ᴀᴀᴘ ᴋᴏ Dᴇᴍᴏᴛᴇ ᴋᴇsᴇ ᴋᴀʀᴜ")
         return
 
     try:
@@ -524,7 +524,7 @@ def set_title(update: Update, context: CallbackContext):
 
     if not user_id:
         message.reply_text(
-            "» ɪ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ ᴡʜᴏ's ᴛʜᴀᴛ ᴜsᴇʀ, ɴᴇᴠᴇʀ sᴇᴇɴ ʜɪᴍ ɪɴ ᴀɴʏ ᴏғ ᴛʜᴇ ᴄʜᴀᴛs ᴡʜᴇʀᴇ ɪ ᴀᴍ ᴩʀᴇsᴇɴᴛ !",
+            "☠︎︎ ᴋᴏɴ ʜᴀɪ ᴡᴏʜ ! 🤔 ᴍᴀɪɴ ᴛᴏʜ ᴜsᴇ ᴀᴀᴊᴛᴀᴋ ɴᴇʜɪ ᴅᴇᴋʜᴀ ᴇʜᴀ",
         )
         return
 
